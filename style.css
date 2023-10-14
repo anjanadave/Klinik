@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: lightblue;
+    height: 6vh;
+}
+
+.day{
+    display: flex;
+}
+
+.day p i{
+    margin-left: 20px;
+    color: blue;
+}
+
+.call p{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.call p i{
+    color: blue;
+    margin-right: 10px;
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+.icon i{
+    font-size: 15px;
+    background: white;
+    color: blue;
+    border-radius: 50%;
+    padding: 5px;
+   
+}
+
+.call{
+   display: flex;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo i{
+    color: blue;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+   list-style-type: none;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-weight: 400;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    color: blue;
+}
+
+.btn{
+  background: blue;
+  color: white;
+  border: none;
+  margin-left: 15px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.btn i{
+    padding-left: 5px;
+}
+
+.aside{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+}
+
+.content{
+    background: blue;
+    color: white;
+    width: 50vw;
+}
+
+.img {
+    width: 50vw;
+    background-image: url('https://img.freepik.com/free-photo/successful-medical-team_329181-9251.jpg?size=626&ext=jpg&ga=GA1.1.1563539072.1697236045&semt=ais');
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.line{
+    width: .1vw;
+    height: 7vh;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.number{
+    display: flex;
+   margin-left: 60px;
+   margin-top: 30px;
+}
+
+.content h1{
+    margin-top: 230px;
+    margin-left: 60px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doc{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+}
+
+.doc p{
+    margin-top: 5px;
+}
+
+.staff{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+} 
+
+.staff p{
+    margin-top: 5px;
+}
+
+.patient{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.patient p{
+    margin-top: 5px;
+}
+
+.letter{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+}
+
+.app{
+    width: 50vw;
+    height: 70vh;
+   
+}
+
+.bttn{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: white;
+    margin-left: 50px;
+    border: 1px solid grey;
+}
+
+.app h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.app p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.form{
+    width: 50vw;
+    height: 70vh;
+    background: lightblue;
+    border-radius: 5px;
+}
+
+.box{
+    display: flex;
+    width: 40vw;
+    height: 19vh;
+    background: lightblue;
+    margin-left: 50px;
+    
+}
+
+.box-icon{
+   width: 5vw;
+}
+
+.box-icon i{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: blue;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.box-content{
+    width: 30vw;
+    margin-left: 20px;
+}
+
+.box-content h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: 35px;
+    
+}
+
+.box-content h5{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.name{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 110px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.form input{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.mail{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.phn{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 110px;
+    border: none;
+    border-radius: 5px;
+}
+
+.doctor{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.chd{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 110px;
+    border: none;
+    border-radius: 5px;
+}
+
+.chdd{
+    width: 17vw;
+    height: 7vh;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-left: 110px;
+    text-align: start;
+    border-radius: 5px;
+    color: grey;
+    font-size: 15px;
+    border: none;
+}
+
+.bt{
+    width: 35vw;
+    height: 7vh;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 110px;
+    font-size: 15px;
+}
